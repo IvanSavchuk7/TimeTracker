@@ -1,0 +1,12 @@
+namespace TimeTracker.Enums;
+
+public enum Error
+{
+    ERR_UNEXPECTED_ERROR,
+    ERR_WRONG_CREDENTIALS,
+    ERR_USER_NOT_FOUND,
+    ERR_FAILED_TO_DELETE_USER,
+    ERR_INVALID_TOKEN,
+    ERR_EMAIL_EXISTS,
+    ERR_INACTIVE_ACCOUNT
+}

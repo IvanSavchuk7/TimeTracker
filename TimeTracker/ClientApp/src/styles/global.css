@@ -1,0 +1,94 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+#root {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background: var(--color-white);
+
+}
+
+h1 {
+    font-family: var(--font-header);
+    font-weight: 700;
+}
+
+h2, th {
+    font-family: var(--font-header);
+    font-weight: 600;
+}
+
+th {
+    font-size: .9rem;
+}
+
+p, input, a, button, span, option, select {
+    font-family: var(--font-text);
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--color-black);
+
+}
+
+label {
+    font-family: var(--font-text);
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--color-black);
+}
+
+@media screen and (max-width: 640px) {
+    * {
+        font-size: .7rem !important;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 920px) {
+
+    * {
+        font-size: .8rem !important;
+    }
+
+}
+
+@media screen and (min-width: 920px) and (max-width: 1080px) {
+    * {
+        font-size: .9rem !important;
+    }
+}
+
+.center-component{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.declined{
+    color:var(--color-red)
+}
+.approved{
+    color: #70e000;
+}
+
+.pending{
+    color:#ffa200;
+}
+.archived{
+    color: #dc6161;
+}
+.canceled{
+    color: #ff0000;
+}
+.edited{
+    color: #0aa9ff;
+}

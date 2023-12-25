@@ -1,0 +1,159 @@
+
+.home-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    gap: 15px;
+    padding: 20px;
+}
+.grid-hover{
+
+}
+.grid-hover:hover{
+    scale: 1.1;
+}
+.vacation-wrapper{
+    align-items: center;
+    justify-content: center;
+}
+.vacation-wrapper form{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.progress-wrapper,.work-plans-wrapper,.vacation-wrapper{
+    background-color: #fff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 100%;
+    min-height: 200px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+.progress-wrapper{
+    flex-direction: column;
+    align-items: center;
+}
+
+.work-plans-wrapper{
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+.push-plan{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.push-plan form{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.work-plans-wrapper h2,.worked-hours-options{
+    padding-top: 15px;
+}
+.work-plans{
+    overflow-y: scroll;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+.work-plans::-webkit-scrollbar {
+    width: .2rem;
+
+}
+
+.work-plans::-webkit-scrollbar-thumb {
+    background-color: rgba(91, 175, 195, .3);
+    border-radius: 1vh;
+}
+
+.work-plans::-webkit-scrollbar-thumb:hover {
+    background-color: var(--color-cyan);
+}
+.work-plan{
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.blue{
+    background-color: #9edbec;
+}
+.yellow{
+    background-color: #fff056;
+}
+.green{
+    background-color: #6ede8a;
+}
+
+.with-date{
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: space-between;
+}
+
+.worked-hours-options{
+    display: flex;
+    gap:5px;
+    align-items: center;
+}
+.worked-hours-options select{
+    margin-top: 1.5px;
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+    font-family: var(--font-header);
+    font-weight: 600;
+}
+
+.all{
+    padding: 10px;
+}
+
+/* t  */
+.tracker{
+    gap: 15px;
+}
+
+.play-img-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c77dff;
+    border-radius: 50%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+    padding: 10px;
+}
+.play-img-wrapper:hover{
+    transition: 0.2s;
+    scale: 1.05;
+}
+.play-img-wrapper img{
+    width: 35px;
+    position: relative;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.vacations-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    width: 90%;
+}
+.vacation-card-item{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}

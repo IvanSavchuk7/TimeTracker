@@ -1,0 +1,164 @@
+﻿.sidebar-wrapper {
+    position: relative;
+}
+
+.sidebar-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    list-style: none;
+    height: 80vh;
+    overflow: auto;
+}
+
+.sidebar-list__link {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 10%;
+}
+
+.sidebar-list li {
+    width: 80%;
+    height: 3rem;
+    padding: 2rem;
+    margin-bottom: 2vh;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    background-color: transparent;
+    text-decoration: none;
+    overflow: hidden;
+    z-index: 1;
+
+}
+
+.sidebar-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    --color-bg: 91, 175, 195;
+    background-color: rgba(var(--color-bg), 0.6);
+    transform: translateX(-110%);
+    transition: all .5s;
+    z-index: -1;
+}
+
+
+.sidebar-list li:last-child::before {
+    background-color: rgba(216, 58, 82, .8);
+}
+
+.sidebar-list li:hover::before {
+    transform: translateX(0);
+}
+
+.sidebar-list hr {
+    width: 80%;
+}
+
+.sidebar-logout__btn {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.sidebar-list__image-wrapper {
+    margin-right: 12px;
+    height: 24px;
+    width: 24px;
+}
+
+.sidebar-list__image-wrapper > div {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.sidebar-list::-webkit-scrollbar {
+    width: .2rem;
+    
+}
+
+.sidebar-list::-webkit-scrollbar-thumb {
+    background-color: rgba(91, 175, 195, .3);
+    border-radius: 1vh;
+}
+
+.sidebar-list::-webkit-scrollbar-thumb:hover {
+    background-color: var(--color-cyan);
+}
+
+.dashboard-img__wrapper {
+    background: url("../../assets/images/dashboard_icon.svg");
+}
+
+.requests-img__wrapper {
+    background: url("../../assets/images/dashboard_request_icon.svg");
+}
+
+.vacations-img__wrapper {
+    background: url("../../assets/images/dashboard_vacations_icon.svg");
+}
+
+.timetracker-img__wrapper {
+    background: url("../../assets/images/dashboard_clock_icon.svg");
+}
+
+.calendar-img__wrapper {
+    background: url("../../assets/images/dashboard_calendar_icon.svg");
+}
+
+.team-img__wrapper {
+    background: url("../../assets/images/dashboard_team_icon.svg");
+}
+
+.settings-img__wrapper {
+    background: url("../../assets/images/dashboard_settings_icon.svg");
+}
+
+.logout-img__wrapper {
+    background: url("../../assets/images/dashboard_log-out_icon.svg");
+}
+
+@media screen and (max-width: 840px) {
+
+    .sidebar-list__link {
+        justify-content: center;
+        margin: 0;
+    }
+
+    .sidebar-list__link span {
+        display: none;
+    }
+
+    .sidebar-list__image-wrapper {
+        margin: 0;
+        width: 2rem;
+        height: 2rem;
+    }
+}
+
+@media screen and (min-width: 840px) and (max-width: 1080px) {
+    .sidebar-list__link span {
+        font-size: .75rem;
+    }
+
+    .sidebar-list__link {
+        margin-left: 10%;
+    }
+}

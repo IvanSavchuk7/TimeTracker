@@ -1,0 +1,16 @@
+{
+    "MSG_USER" : {
+        "CREATED_SUCCESSFULLY" : "User {0} successfully created!",
+        "UPDATED_SUCCESSFULLY" : "User {0} successfully updated!",
+        "VERIFIED_SUCCESSFULLY" : "Successfully verified!"
+    },
+    "MSG_APPROVERS" : {
+        "SET_SUCCESSFULLY" : "Approvers successfully set!",
+        "UPDATED_SUCCESSFULLY" : "Approvers successfully updated!"
+    },
+    "MSG_VACATION" : {
+        "CREATED_SUCCESSFULLY" : "Vacation successfully created!",
+        "UPDATED_SUCCESSFULLY" : "Vacation successfully updated!"
+    }
+
+}

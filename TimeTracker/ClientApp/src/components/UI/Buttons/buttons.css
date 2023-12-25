@@ -1,0 +1,80 @@
+﻿.btn-large,
+.btn-small{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+
+    border-radius: 10px;
+    background: var(--color-cyan);
+    border: 1px solid var(--color-stroke-gray);
+    opacity: .7;
+    color: white;
+    
+    
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-large__wrapper {
+    width: 100%;
+    /* margin-top: 2vh; */
+}
+
+.btn-large {
+    width: 100%;
+    font-weight: 700;
+    font-size: 1.25rem;
+    height: 3rem;
+    padding: 16px 50px;
+}
+
+.btn-small {
+    width: 25%;
+    font-weight: 500;
+    font-size: 1rem;
+    height: 2.5rem;
+}
+
+.btn-large:hover,
+.small:hover{
+    opacity: .9;
+}
+
+.btn-large:active,
+.btn-small:active{
+    opacity: 1.2;
+}
+
+.google-btn__large {
+    display: flex;
+    width: 100%;
+    height: 3.8rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+    border-radius: 10px;
+    border: 1px solid var(--color-stroke-gray);
+    background: #FFF;
+    cursor: pointer;
+}
+
+.google-btn__large img {
+    width: 20px;
+    height: 20px;
+    margin-right: 3%;
+}
+
+.btn-small__wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.load-more{
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid lightgray;
+    position: relative;
+}

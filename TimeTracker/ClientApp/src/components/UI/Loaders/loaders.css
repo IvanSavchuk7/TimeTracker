@@ -1,0 +1,30 @@
+﻿.loader {
+    border: .25rem solid rgba(0, 0, 0, .1);
+    border-left-color: transparent;
+    border-radius: 50%;
+}
+
+.loader {
+    border: 4px solid rgba(0, 0, 0, .1);
+    border-left-color: transparent;
+    width: 2.25rem;
+    height: 2.25rem;
+}
+
+.loader {
+    border: 4px solid rgba(0, 0, 0, .1);
+    border-left-color: var(--color-cyan);
+    width: 2.25rem;
+    height: 2.25rem;
+    animation: spinBlock 1s linear infinite;
+}
+
+@keyframes spinBlock {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

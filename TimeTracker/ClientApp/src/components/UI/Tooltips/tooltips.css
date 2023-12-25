@@ -1,0 +1,39 @@
+﻿.tooltip-wrapper {
+    display: inline-flex;
+    font-family: var(--font-text);
+}
+
+.tooltip-link {
+    color: var(--color-cyan);
+    text-align: center;
+    font-size: 1rem;
+    
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: .5vw;
+}
+
+.error-tooltip__wrapper {
+    display: flex;
+    height: 2vh;
+}
+
+.error-tooltip__wrapper p {
+    margin: .2vw 1vh;
+    font-size: smaller;
+    color: var(--color-red);
+}
+
+@media screen and (max-width: 640px) {
+    .tooltip-wrapper p {
+        font-size: .75rem;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 1080px){
+    .tooltip-wrapper p {
+        font-size: .85rem;
+    }
+}
+

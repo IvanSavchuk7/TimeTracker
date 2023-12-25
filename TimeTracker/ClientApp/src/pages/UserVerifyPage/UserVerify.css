@@ -1,0 +1,13 @@
+.user-verify-page-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 80vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-password-form{
+    width: 30%;
+}

@@ -1,0 +1,32 @@
+.vacation-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 120px;
+    align-items: center;
+    gap: 20px;
+    padding:8px 15px;
+    border-radius: 8px;
+    background-color: #e2eafc;
+    box-shadow: #ccdbfd 0px 1px 2px 0px;
+}
+
+.tooltip-text {
+    visibility: hidden;
+    min-width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+.tooltip-wrapper{
+    position: relative;
+}
+.tooltip:hover~.tooltip-text{
+    visibility: visible;
+}
+.tooltip:hover{
+    cursor: pointer;
+    scale: 1.1;
+}

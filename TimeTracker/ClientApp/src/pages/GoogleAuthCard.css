@@ -1,0 +1,20 @@
+.google-auth-card{
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.google-auth-card-inner{
+    margin-bottom: 150px;
+    padding: 10px;
+    background-color: #bde0fe;
+    height: 300px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

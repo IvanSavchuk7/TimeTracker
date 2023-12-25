@@ -1,0 +1,94 @@
+.event-form__inner {
+    width: 40%;
+    height: 45%;
+
+    background: var(--color-white);
+    border-radius: 1rem;
+}
+
+.event-form__inner>form {
+    width: 100%;
+    height: 85%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.event-form__inner>form>span:first-child {
+    font-size: 1.5rem;
+}
+
+.event-form__inner>form .show-datepicker__btn {
+    width: 24px;
+    height: 24px;
+    border: none;
+    background: url("../../assets/images/dashboard_calendar_icon.svg");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    position: relative;
+    opacity: .6;
+    margin-left: 1.5rem;
+}
+
+.event-form__inner>form .show-datepicker__btn {
+    margin-left: .5rem;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.event-date-wrapper {
+    display: flex;
+}
+
+.time-range-wrapper {
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+
+.delete-button-wrapper {
+    margin: 0 auto;
+}
+
+.delete-button-wrapper button {
+    border: 1px solid var(--color-stroke-gray);
+    opacity: .7;
+    color: white;
+
+    font-weight: 700;
+    font-size: 1.25rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button-group-wrapper {
+    display: flex;
+}
+
+.form-inputs-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.form-inputs-wrapper > div:first-child {
+    flex: 1 1 70%;
+    margin: 0 5px 0 0;
+}
+
+.form-inputs-wrapper > div:last-child {
+    flex: 0 0 30%;
+}
+
+.button-group-wrapper .btn-large__wrapper {
+    flex: 1 1 auto;
+    width: 100%;
+}
+
+.button-group-wrapper .delete-button-wrapper {
+    flex: 0 0 20%;
+    margin-left: 5px;
+}

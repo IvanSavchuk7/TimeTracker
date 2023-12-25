@@ -1,0 +1,136 @@
+﻿.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 0 1vw;
+}
+
+.header-logo__wrapper {
+    position: relative;
+    display: flex;
+    width: 10vw;
+    height: 80%;
+    margin: .6vh 0 .6vh 0;
+    
+    background-image: url(../../assets/images/timetracker_header_logo.svg);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.header-logo__wrapper a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.header-profile__wrapper {
+    align-items: center;
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+.header-profile__notifications {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.header-profile__notifications-inner {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-image: url("../../assets/images/notifications_icon_empty.svg");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.header-profile__notifications button {
+    height: 100%;
+    border: none;
+    width: 100%;
+    background: transparent;
+}
+.header-profile__notifications img {
+    height: 100%;
+}
+
+.header-profile__wrapper > div {
+    margin: 0 20px;
+}
+
+.header .profile-avatar__wrapper {
+    padding: 17px;
+
+    border: 2px solid var(--color-cyan);
+}
+
+.header .profile-avatar__wrapper span {
+    font-size: 1.2rem;
+}
+
+.header-timer__inner {
+    display: flex;
+}
+
+.header-timer__wrapper {
+    width: 50%;
+}
+
+.header-timer__content {
+    display: flex;
+    align-items: center;
+}
+
+.header .timer-wrapper {
+    width: 7rem;
+}
+
+.header .timer-wrapper > span{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.header .timer-wrapper > span::after {
+    font-size: 1rem;
+    padding-bottom: 2px;
+}
+
+.timer-start-stop__btn {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.timer-start-stop__btn > div {
+    width: 1rem;
+    height: 1rem;
+    border: none;
+    cursor: pointer;
+    right: 0;
+    
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.timer-stop__icon {
+    background: url("../../assets/images/timer_stop_icon.svg");
+    opacity: .5;
+}
+
+.timer-start__icon {
+    background: url("../../assets/images/timer_start_icon.svg");
+    opacity: 1;
+}

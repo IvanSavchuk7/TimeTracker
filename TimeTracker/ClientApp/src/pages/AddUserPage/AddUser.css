@@ -1,0 +1,12 @@
+﻿.user-form__wrapper {
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    flex: 1 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    
+    background-color: rgba(var(--color-white), 100);
+}

@@ -1,0 +1,15 @@
+﻿.login-page__wrapper-inner {
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+}
+
+
+
+.login-page__wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}

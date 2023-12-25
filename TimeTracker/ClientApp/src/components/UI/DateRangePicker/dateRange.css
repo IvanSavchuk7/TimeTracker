@@ -1,0 +1,115 @@
+.date-range-picker {
+  width: 250px;
+  padding: 8px;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: var(--color-white);
+  box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+.date-range-picker--nav {
+  margin: -10px -10px 5px;
+  padding: 0 15px;
+  background-color: var(--color-cyan);
+  color: #fff;
+  height: 40px;
+  position: relative;
+}
+
+.date-range-picker--nav a {
+  position: absolute;
+  cursor: pointer;
+  left: 10px;
+  font-size: 32px;
+  line-height: 1;
+  top: 2px;
+  width: 30px;
+  text-align: center;
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.4);
+  user-select: none;
+}
+
+.date-range-picker--nav a:hover {
+  color: #fff;
+}
+
+.date-range-picker--nav a:last-child {
+  left: auto;
+  right: 10px;
+}
+
+.date-range-picker--nav h1 {
+  margin: 0;
+  position: absolute;
+  left: 40px;
+  right: 40px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  user-select: none;
+}
+
+.date-range-picker--nav small {
+  font-weight: 300;
+  font-size: 60%;
+}
+
+.date-range-picker--days {
+  font-size: 0;
+}
+
+.date-range-picker--days span {
+  width: 14.28571%;
+  display: inline-block;
+  text-align: center;
+  user-select: none;
+  cursor: pointer;
+  margin: 1px 0;
+  line-height: 30px;
+  position: relative;
+  font-size: 14px;
+}
+
+.date-range-picker--days span.day-label {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 12px;
+  cursor: initial;
+}
+
+.date-range-picker--days span.active {
+  font-weight: 800;
+  background-color: rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+}
+
+.date-range-picker--days span.muted {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.date-range-picker--days span.between {
+  border-radius: 0;
+}
+
+.date-range-picker--days span.start,
+.date-range-picker--days span.between,
+.date-range-picker--days span.end {
+  background-color: var(--color-cyan);
+  color: #fff;
+}
+
+.date-range-picker--days span.start {
+  border-radius: 12px 0 0 12px;
+}
+
+.date-range-picker--days span.end {
+  border-radius: 0 12px 12px 0;
+}
+
+.date-range-picker--days span.start.end {
+  border-radius: 12px;
+}

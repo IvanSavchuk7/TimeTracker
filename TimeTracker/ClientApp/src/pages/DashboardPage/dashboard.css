@@ -1,0 +1,6 @@
+.dashboard-page__wrapper {
+    height: 90vh;
+    width: 100%;
+    padding: 1.5%;
+    overflow: hidden;
+}

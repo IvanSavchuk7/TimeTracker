@@ -1,0 +1,6 @@
+.calendar-page__wrapper {
+    height: 90vh;
+    width: 100%;
+    padding: 3%;
+    overflow: hidden;
+}

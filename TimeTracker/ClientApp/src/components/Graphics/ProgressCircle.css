@@ -1,0 +1,37 @@
+
+.circle-wrapper{
+    position: relative;
+    width: 260px;
+    height: 260px;
+    transform: rotate(-90deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.text{
+    font-family: sans-serif;
+    font-size: 25px;
+    position: absolute;
+    transform: rotate(90deg);
+}
+svg{
+    width: 180px;
+    height:180px;
+}
+svg circle{
+    fill: none;
+    stroke-linecap: round;
+    transform: translate(20px,20px);
+}
+svg circle:nth-child(1){
+    stroke: black;
+    stroke-width: 9px;
+    filter: opacity(75%);
+}
+svg circle:nth-child(2){
+    stroke: greenyellow;
+    stroke-width: 10px;
+    stroke-dasharray: 502;
+    filter: drop-shadow(0px 0px 2px chartreuse);
+}

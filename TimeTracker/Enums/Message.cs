@@ -1,0 +1,9 @@
+namespace TimeTracker.Enums;
+
+public enum Message
+{
+    CREATED_SUCCESSFULLY,
+    UPDATED_SUCCESSFULLY,
+    SET_SUCCESSFULLY,
+    VERIFIED_SUCCESSFULLY
+}

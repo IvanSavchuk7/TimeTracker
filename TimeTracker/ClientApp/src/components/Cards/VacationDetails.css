@@ -1,0 +1,46 @@
+.vacation-card{
+    padding: 15px;
+    border-radius: 15px;
+    width: 750px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
+}
+
+.vacation-card-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.vacation-info,.user-info{
+    display: flex;
+}
+.vacation-info{
+    flex-direction: column;
+    gap: 12px;
+    margin-left: 3px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.user-info{
+    justify-content: space-between;
+}
+.vacation-days{
+    display: flex;
+    gap:8px;
+}
+.vacation-card textarea{
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    resize: none;
+    padding: 5px;
+}
+
+.vacation-card textarea:hover,.vacation-card textarea:focus{
+    box-shadow: rgb(150, 180, 239) 0px 0px 0px 1px;
+}

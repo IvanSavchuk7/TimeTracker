@@ -1,0 +1,28 @@
+.card-wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 600px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 80px;
+    padding: 15px;
+}
+
+.menu-option{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.choose-type{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
